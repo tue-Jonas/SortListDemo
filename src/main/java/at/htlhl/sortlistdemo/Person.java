@@ -9,6 +9,10 @@ public class Person {
     public Person() {
     }
 
+    public Person(String firstName, String lastName) {
+        this(firstName, lastName, 0);
+    }
+
     public Person(String firstName, String lastName, int height) {
         this.firstName = firstName;
         this.lastName = lastName;
