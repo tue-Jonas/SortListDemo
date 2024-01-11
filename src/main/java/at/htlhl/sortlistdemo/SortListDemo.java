@@ -11,6 +11,15 @@ public class SortListDemo {
         personList = new ArrayList<>();
 
         fillList();
+
+        System.out.println("Unsorted list:");
+        outputList();
+
+        // sort the list
+        personList.sort(new PersonComparator());
+
+        System.out.println("\nSorted list:");
+        outputList();
     }
 
     private void fillList() {
@@ -20,6 +29,12 @@ public class SortListDemo {
         personList.add(new Person("Thomas", "Baumeister"));
         personList.add(new Person("Mario", "Toifl"));
         personList.add(new Person("Noah", "Mayerhuber"));
+    }
+
+    private void outputList() {
+        for (Person person : personList) {
+            System.out.println(person);
+        }
     }
 
     public static void main(String[] args) {

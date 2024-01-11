@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e090bec-d8ae-4c78-9947-08cbef13b45b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/at/htlhl/sortlistdemo/PersonComparator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/at/htlhl/sortlistdemo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/htlhl/sortlistdemo/SortListDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/at/htlhl/sortlistdemo/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/htlhl/sortlistdemo/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/htlhl/sortlistdemo/SortListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/htlhl/sortlistdemo/SortListDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,8 +36,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.SortListDemo.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -67,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1704959471883</updated>
-      <workItem from="1704959473177" duration="515000" />
+      <workItem from="1704959473177" duration="1249000" />
     </task>
     <servers />
   </component>
